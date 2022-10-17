@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
-  .wrapper{
+  
+  .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,10 +12,8 @@
     background: #dde1e7;
     flex-direction: row;
     padding: 30px;
-  
   }
-
-  .box{
+  .box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,28 +23,33 @@
     background: #dde1e7;
     border-radius: 50%;
     margin: 0 10px;
-    box-shadow: -3px -3px 7px #fff , 3px 3px 5px rgba(94, 104, 121, 0.712);
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
     position: relative;
   }
-
-  .box::after{
+  .box:after {
     content: "";
     position: absolute;
     width: 80%;
     height: 80%;
     border-radius: 50%;
     background: transparent;
-    box-shadow: inset -3px -3px 7px #fff,inset 3px 3px 5px rgba(94, 104, 121, 0.712);
+    box-shadow: inset -3px -3px 7px #fff,
+      inset 3px 3px 5px rgba(94, 104, 121, 0.712);
   }
-
-  .box:hover::after{
-    box-shadow: -3px -3px 7px #fff,3px 3px 5px rgba(94, 104, 121, 0.712);
+  
+  .box:hover:after {
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
   }
-
-  box i{
+  
+  .box i {
     cursor: pointer;
     background: #dde1e7;
     font-size: 50px;
-    text-shadow: -3px -3px 7px #fff,3px 3px 5px rgba(94, 104, 121, 0.712);
+    text-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
     transition: 1s ease;
   }
+  .box:hover i {
+    color: dodgerblue;
+    transform: rotate(360deg);
+  }
+  
