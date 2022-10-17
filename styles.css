@@ -38,3 +38,7 @@
     background: transparent;
     box-shadow: inset -3px -3px 7px #fff,inset 3px 3px 5px rgba(94, 104, 121, 0.712);
   }
+
+  .box:hover::after{
+    box-shadow: -3px -3px 7px #fff,3px 3px 5px rgba(94, 104, 121, 0.712);
+  }
