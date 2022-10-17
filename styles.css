@@ -49,7 +49,7 @@
     transition: 1s ease;
   }
   .box:hover i {
-    color: dodgerblue;
+    color: #3a86ff;
     transform: rotate(360deg);
   }
   
