@@ -42,3 +42,11 @@
   .box:hover::after{
     box-shadow: -3px -3px 7px #fff,3px 3px 5px rgba(94, 104, 121, 0.712);
   }
+
+  box i{
+    cursor: pointer;
+    background: #dde1e7;
+    font-size: 50px;
+    text-shadow: -3px -3px 7px #fff,3px 3px 5px rgba(94, 104, 121, 0.712);
+    transition: 1s ease;
+  }
