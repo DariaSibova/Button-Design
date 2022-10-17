@@ -14,3 +14,16 @@
     padding: 30px;
   
   }
+
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 200px;
+    height: 200px;
+    background: #dde1e7;
+    border-radius: 50%;
+    margin: 0 10px;
+    box-shadow: -3px -3px 7px #fff , 3px 3px 5px rgba(94, 104, 121, 0.712);
+  }
