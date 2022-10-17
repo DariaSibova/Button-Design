@@ -26,4 +26,15 @@
     border-radius: 50%;
     margin: 0 10px;
     box-shadow: -3px -3px 7px #fff , 3px 3px 5px rgba(94, 104, 121, 0.712);
+    position: relative;
+  }
+
+  .box::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: inset -3px -3px 7px #fff,inset 3px 3px 5px rgba(94, 104, 121, 0.712);
   }
